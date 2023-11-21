@@ -9,21 +9,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
+    <main class="bgcolor-red">
+        <div class="container">
+            <h1 class="text-uppercase text-center fw-bold text-white pt-5">calcola il prezzo del tuo biglietto</h1>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 col-lg-3 mb-4 ">
+                    <input id="nome" type="text" class="form-control" placeholder="Inserire Nome" aria-label="nome">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <input id="cognome" type="text" class="form-control" placeholder="Inserire Cognome" aria-label="cognome">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <input id="chilometri" type="text" class="form-control" placeholder="Inserire il numero di km" aria-label="chilometri">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <input id="eta" type="text" class="form-control" placeholder="Inserire età" aria-label="età">
+                </div>
+                <div class="col text-center mt-4">
+                    <button id="button" type="button" class="btn btn-outline-light">Genera</button>
+                </div>
+            </div>
+            <div>
+                
+            </div>
+            <h1 class="text-uppercase text-center fw-bold text-white mt-5">il tuo biglietto</h1>
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="col-12 col-lg-4 text-center text-lg-start">
+                    <h4 id="dati" class="text-uppercase text-white"></h4>   
+                </div>
+                <div class="col-12 col-lg-4 text-center text-lg-end">
+                    <h5 id="biglietto" class="text-white"></h5>
+                    <h4 id="dati" class="text-uppercase text-white"></h4>   
+                </div>
+            </div>
+    
+        </div>
+    </main>
 
-    <div class="row">
-        <div class="col">
-          <input id="chilometri" type="text" class="form-control" placeholder="Inserire il numero di km da percorrere " aria-label="First name">
-        </div>
-        <div class="col">
-          <input id="eta" type="text" class="form-control" placeholder="Inserire età" aria-label="Last name">
-        </div>
-        <div class="col">
-            <button id="button" type="button" class="btn btn-light">Genera</button>
-        </div>
-    </div>
-    <div>
-        <h1 id="biglietto"></h1>
-    </div>
 
 
 
