@@ -54,7 +54,8 @@ button.addEventListener("click", function(){
         // limitare le cifre decimali fino a centesimi
         let biglietto_finale = biglietto_scontato.toFixed(2)
         console.log(biglietto_finale)
-     
+        document.getElementById("biglietto").innerHTML = message + biglietto_finale + "€";
+
         
     }
     else if (eta > 65){
@@ -64,13 +65,16 @@ button.addEventListener("click", function(){
         // limitare le cifre decimali fino a centesimi
         let biglietto_finale = biglietto_scontato.toFixed(2)
         console.log(biglietto_finale)
-    }
+        document.getElementById("biglietto").innerHTML = message + biglietto_finale + "€";
+
+    }   
     else{
         biglietto = chilometri * 0.21;
         // limitare le cifre decimali fino a centesimi
         let biglietto_finale = biglietto.toFixed(2)
         console.log(biglietto_finale)
-        
+        document.getElementById("biglietto").innerHTML = biglietto_finale + "€";
+
     }
 })
 
