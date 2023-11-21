@@ -19,3 +19,12 @@ Consigli:
 Rispettate le milestone., non andate avanti se non avete completato prima quella precedente.
 Nota:
 Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
+
+Problema: calcolo del prezzo del biglietto del treno
+1- permettere di inserire età (tramite input)
+2- permettere di inserire km da percorrere (tramite input)
+3- inserire bottone che al suo click calcoli il prezzo
+3.1 ? minorenne sconto del 20%
+3.2 : ? over 65 sconto del 40%
+3.3 : prezzo pieno (km * 0.21)
+4- stampare a schermo prezzo finale 
